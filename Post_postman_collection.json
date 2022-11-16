@@ -1,0 +1,1110 @@
+{
+	"info": {
+		"_postman_id": "34de396a-363d-45b0-8289-8b0ebd50d967",
+		"name": "Post",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21720707"
+	},
+	"item": [
+		{
+			"name": "GetPost",
+			"item": [
+				{
+					"name": "Get/Post",
+					"item": [
+						{
+							"name": "GetPostList",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{host}}post",
+									"host": [
+										"{{host}}post"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetPostList(POST)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{host}}post",
+									"host": [
+										"{{host}}post"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "GetPostParams",
+					"item": [
+						{
+							"name": "GetPostParamsLimit",
+							"item": [
+								{
+									"name": "GetPostListLimit(NoParams)",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}post?limit",
+											"host": [
+												"{{host}}post"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "",
+													"disabled": true
+												},
+												{
+													"key": "limit",
+													"value": null
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList(Limit=4)",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}post?limit=4",
+											"host": [
+												"{{host}}post"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "4"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList(Limit=5)",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}post?limit=5",
+											"host": [
+												"{{host}}post"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "5"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList(Limit=6)",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}post?limit=6",
+											"host": [
+												"{{host}}post"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "6"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList(Limit=20)",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}post?limit=20",
+											"host": [
+												"{{host}}post"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "20"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList(Limit=49)",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}post?limit=49",
+											"host": [
+												"{{host}}post"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "49"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList(Limit=50)",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}post?limit=50",
+											"host": [
+												"{{host}}post"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "50"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList(Limit=51)",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}post?limit=51",
+											"host": [
+												"{{host}}post"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "51"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList(Limit=latin)",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}post?limit=latin",
+											"host": [
+												"{{host}}post"
+											],
+											"query": [
+												{
+													"key": "limit",
+													"value": "latin"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "GetPostParamsPage",
+							"item": [
+								{
+									"name": "GetPostList(page=0)",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}post?page=0",
+											"host": [
+												"{{host}}post"
+											],
+											"query": [
+												{
+													"key": "page",
+													"value": "0"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList(page=1)",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}post?page=1",
+											"host": [
+												"{{host}}post"
+											],
+											"query": [
+												{
+													"key": "page",
+													"value": "1"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList(page=999)",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}post?page=999 ",
+											"host": [
+												"{{host}}post"
+											],
+											"query": [
+												{
+													"key": "page",
+													"value": "999 "
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList(page=1000)",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}post?page=1000",
+											"host": [
+												"{{host}}post"
+											],
+											"query": [
+												{
+													"key": "page",
+													"value": "1000"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList(page=latin)",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}post?page=latin",
+											"host": [
+												"{{host}}post"
+											],
+											"query": [
+												{
+													"key": "page",
+													"value": "latin"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList(page)",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}post?page",
+											"host": [
+												"{{host}}post"
+											],
+											"query": [
+												{
+													"key": "page",
+													"value": null
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPostList(page=№%?\")",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}post?page=№%?\"",
+											"host": [
+												"{{host}}post"
+											],
+											"query": [
+												{
+													"key": "page",
+													"value": "№%?\""
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						},
+						{
+							"name": "GetPostParamsCreated",
+							"item": [
+								{
+									"name": "GetPost(Created=0)",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}post?created=0",
+											"host": [
+												"{{host}}post"
+											],
+											"query": [
+												{
+													"key": "created",
+													"value": "0"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPost(Created=NoParams)",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}post?created",
+											"host": [
+												"{{host}}post"
+											],
+											"query": [
+												{
+													"key": "created",
+													"value": null
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPost(Created=1)",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}post?created=1",
+											"host": [
+												"{{host}}post"
+											],
+											"query": [
+												{
+													"key": "created",
+													"value": "1"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPost(Created=2)",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}post?created=2",
+											"host": [
+												"{{host}}post"
+											],
+											"query": [
+												{
+													"key": "created",
+													"value": "2"
+												}
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "GetPost(Created=latin)",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{host}}post?created=latin",
+											"host": [
+												"{{host}}post"
+											],
+											"query": [
+												{
+													"key": "created",
+													"value": "latin"
+												}
+											]
+										}
+									},
+									"response": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "CreatePost",
+			"item": [
+				{
+					"name": "CreatPostText",
+					"item": [
+						{
+							"name": "CreatPost(Text =6)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"text\": \"@adhjb\",\r\n    \"image\": \"{{$randomImageUrl}}\",\r\n    \"likes\": 16,\r\n    \"tags\": [\r\n                \"dog\",\r\n                \"pet\",\r\n                \"canine\"\r\n    ],\r\n    \"owner\": \"60d0fe4f5311236168a109ed\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}post/create",
+									"host": [
+										"{{host}}post"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CreatPost(Text =50)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"text\": \"ice caves in the wild landscape photo of ice near \",\r\n    \"image\": \"{{$randomImageUrl}}\",\r\n    \"likes\": 31,\r\n    \"tags\": [\r\n                \"snow\",\r\n                \"ice\",\r\n                \"mountain\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a10a0b\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}post/create",
+									"host": [
+										"{{host}}post"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CreatPost(Text =20)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"text\": \"ice caves in the wil\",\r\n    \"image\": \"{{$randomImageUrl}}\",\r\n    \"likes\": 31,\r\n    \"tags\": [\r\n                \"snow\",\r\n                \"ice\",\r\n                \"mountain\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a10a0b\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}post/create",
+									"host": [
+										"{{host}}post"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CreatPost(Text =5)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"text\": \"ice c\",\r\n    \"image\": \"{{$randomImageUrl}}\",\r\n    \"likes\": 31,\r\n    \"tags\": [\r\n                \"snow\",\r\n                \"ice\",\r\n                \"mountain\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a10a0b\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}post/create",
+									"host": [
+										"{{host}}post"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CreatPost(Text =51)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"text\": \"ice caves in the wild landscape photo of ice near ....\",\r\n    \"image\": \"{{$randomImageUrl}}\",\r\n    \"likes\": 31,\r\n    \"tags\": [\r\n                \"snow\",\r\n                \"ice\",\r\n                \"mountain\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a10a0b\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}post/create",
+									"host": [
+										"{{host}}post"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CreatPost(WithoutText)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"text\": \"\",\r\n    \"image\": \"{{$randomImageUrl}}\",\r\n    \"likes\": 31,\r\n    \"tags\": [\r\n                \"snow\",\r\n                \"ice\",\r\n                \"mountain\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a10a0b\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}post/create",
+									"host": [
+										"{{host}}post"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CreatPost(NoParams)",
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "CreatPostImage",
+					"item": [
+						{
+							"name": "CreatPostImage(Url=valid)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"text\": \"ice caves in the wild landscape photo of ice near ...\",\r\n    \"image\": \"http://placeimg.com/640/480\" ,\r\n    \"likes\": 31,\r\n    \"tags\": [\r\n                \"snow\",\r\n                \"ice\",\r\n                \"mountain\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a10a0b\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}post/create",
+									"host": [
+										"{{host}}post"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CreatPostImage(Url=invalid)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"text\": \"ice caves in the wild landscape photo of ice near ...\",\r\n    \"image\": \"http/placeimg.com 640/480\" ,\r\n    \"likes\": 31,\r\n    \"tags\": [\r\n                \"snow\",\r\n                \"ice\",\r\n                \"mountain\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a10a0b\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}post/create",
+									"host": [
+										"{{host}}post"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CreatPostImage(WithoutParams)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"text\": \"ice caves in the wild landscape photo of ice near ...\",\r\n    \"likes\": 31,\r\n    \"tags\": [\r\n                \"snow\",\r\n                \"ice\",\r\n                \"mountain\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a10a0b\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}post/create",
+									"host": [
+										"{{host}}post"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "CreatPostLikes",
+					"item": [
+						{
+							"name": "CreatPostLikes(likes=0)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"text\": \"ice caves in the wild landscape photo of ice near ...\",\r\n    \"image\": \"http://placeimg.com/640/480\" ,\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n                \"snow\",\r\n                \"ice\",\r\n                \"mountain\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a10a0b\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}post/create",
+									"host": [
+										"{{host}}post"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CreatPostLikes(likes=10)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"text\": \"ice caves in the wild landscape photo of ice near ...\",\r\n    \"image\": \"http://placeimg.com/640/480\" ,\r\n    \"likes\": 10,\r\n    \"tags\": [\r\n                \"snow\",\r\n                \"ice\",\r\n                \"mountain\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a10a0b\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}post/create",
+									"host": [
+										"{{host}}post"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CreatPostLikes(likes=150)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"text\": \"ice caves in the wild landscape photo of ice near ...\",\r\n    \"image\": \"http://placeimg.com/640/480\" ,\r\n    \"likes\": 150,\r\n    \"tags\": [\r\n                \"snow\",\r\n                \"ice\",\r\n                \"mountain\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a10a0b\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}post/create",
+									"host": [
+										"{{host}}post"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CreatPostLikes(likes=1500)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"text\": \"ice caves in the wild landscape photo of ice near ...\",\r\n    \"image\": \"http://placeimg.com/640/480\" ,\r\n    \"likes\": 1500,\r\n    \"tags\": [\r\n                \"snow\",\r\n                \"ice\",\r\n                \"mountain\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a10a0b\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}post/create",
+									"host": [
+										"{{host}}post"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CreatPostLikes(likes={{$randomInt}})",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"text\": \"ice caves in the wild landscape photo of ice near ...\",\r\n    \"image\": \"http://placeimg.com/640/480\" ,\r\n    \"likes\": {{$randomInt}},\r\n    \"tags\": [\r\n                \"snow\",\r\n                \"ice\",\r\n                \"mountain\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a10a0b\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}post/create",
+									"host": [
+										"{{host}}post"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CreatPostLikes(likes=text)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"text\": \"ice caves in the wild landscape photo of ice near ...\",\r\n    \"image\": \"http://placeimg.com/640/480\" ,\r\n    \"likes\": text,\r\n    \"tags\": [\r\n                \"snow\",\r\n                \"ice\",\r\n                \"mountain\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a10a0b\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}post/create",
+									"host": [
+										"{{host}}post"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CreatPostLikes(likes=#%&&&)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"text\": \"ice caves in the wild landscape photo of ice near ...\",\r\n    \"image\": \"http://placeimg.com/640/480\" ,\r\n    \"likes\": #%&&&,\r\n    \"tags\": [\r\n                \"snow\",\r\n                \"ice\",\r\n                \"mountain\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a10a0b\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}post/create",
+									"host": [
+										"{{host}}post"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CreatPostLikes(WithoutParams)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"text\": \"ice caves in the wild landscape photo of ice near ...\",\r\n    \"image\": \"http://placeimg.com/640/480\" ,\r\n    \"tags\": [\r\n                \"snow\",\r\n                \"ice\",\r\n                \"mountain\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a10a0b\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}post/create",
+									"host": [
+										"{{host}}post"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "CreatePostOwner",
+					"item": [
+						{
+							"name": "CreatePostOwner(Id=valid)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \r\n    \"owner\": \"60d0fe4f5311236168a10a0b\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}post/create",
+									"host": [
+										"{{host}}post"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "CreatePostOwner(Id=invalid)",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"text\": \"ice caves in the wild landscape photo of ice near ...\",\r\n    \"image\": \"http://placeimg.com/640/480\" ,\r\n    \"likes\": 0,\r\n    \"tags\": [\r\n                \"snow\",\r\n                \"ice\",\r\n                \"mountain\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{host}}post/create",
+									"host": [
+										"{{host}}post"
+									],
+									"path": [
+										"create"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "CreatPost",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"ice caves in the wild landscape photo of ice near ...\",\r\n    \"image\": \"{{$randomImageUrl}}\",\r\n    \"likes\": 31,\r\n    \"tags\": [\r\n                \"snow\",\r\n                \"ice\",\r\n                \"mountain\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a10a0b\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreatPost(GET)",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"text\": \"ice caves in the wild landscape photo of ice near ...\",\r\n    \"image\": \"{{$randomImageUrl}}\",\r\n    \"likes\": 31,\r\n    \"tags\": [\r\n                \"snow\",\r\n                \"ice\",\r\n                \"mountain\"\r\n            ],\r\n    \"owner\": \"60d0fe4f5311236168a10a0b\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}post/create",
+							"host": [
+								"{{host}}post"
+							],
+							"path": [
+								"create"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "{{app-id}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "app-id",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

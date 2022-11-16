@@ -1,0 +1,258 @@
+{
+	"info": {
+		"_postman_id": "a289e079-982e-4be9-ac6c-c7950b1a88e3",
+		"name": "Homework",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21720707"
+	},
+	"item": [
+		{
+			"name": "Comments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public/v1/comments",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v1",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "OneComment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/comments/2013",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"comments",
+						"2013"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Соммеnt",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "830baecc0b31db512290e0efaf82f7cc378d0305e09da4cd1c9b538bc8b2349f",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"post_id\": 1775,\r\n    \"name\": \"Chandrakin Mehrotra\",\r\n    \"email\": \"chandrakin_mehrotra@hauck.name\",\r\n    \"body\": \"Very difficult\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/comments",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ChangeComment",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "830baecc0b31db512290e0efaf82f7cc378d0305e09da4cd1c9b538bc8b2349f",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"post_id\": 1775,\r\n    \"name\": \"Chandrakin Mehrotra\",\r\n    \"email\": \"chandrakin_mehrotra@hauck.name\",\r\n    \"body\": \"summer time\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/comments/2013 ",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"comments",
+						"2013 "
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETEComment",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/comments/2013",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"comments",
+						"2013"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FilterComment_with_Nested Resources",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/posts/1775/comments",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"posts",
+						"1775",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NewComment_with_NestedResources",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "830baecc0b31db512290e0efaf82f7cc378d0305e09da4cd1c9b538bc8b2349f",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n    \r\n        \r\n        \"name\": \"Chandrakin Mehrotra\",\r\n        \"email\": \"chandrakin_mehrotra@hauck.name\",\r\n        \"body\": \"in doubt\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/posts/1775/comments",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"posts",
+						"1775",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "830baecc0b31db512290e0efaf82f7cc378d0305e09da4cd1c9b538bc8b2349f",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
